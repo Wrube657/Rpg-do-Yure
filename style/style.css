@@ -197,9 +197,7 @@ body {
   padding-right: 2.5%;
   text-align: justify;
 }
-.img_player{
+.img_personagem{
   max-width: 40%;
   max-height: 40%;
-  align-items: center;
-  align-content: center;
 }
