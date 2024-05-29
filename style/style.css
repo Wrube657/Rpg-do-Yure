@@ -192,3 +192,12 @@ body {
     display: none;
   }
 }
+.texto{
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+  text-align: justify;
+}
+.img_player{
+  max-width: 40%;
+  max-height: 40%;
+}
