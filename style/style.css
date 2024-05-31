@@ -1,51 +1,20 @@
 /* Menu Mobile */
 
-.btn-abrir-menu svg {
-  color: #ff0000;
-  font-size: 50px;
-  right: -90%;
-  position: relative;
+
+
+.main-mobile {
+  display: none;
 }
 
-
-
-.menu-mobile {
-  background-color: rgb(0, 0, 0);
-  height: 100vh;
-  position: fixed;
-  top: 0;
-  right: 0;
-  z-index: 99999;
-  width: 0%;
-  overflow: hidden;
-transition: .5s;
-}
-
-.menu-mobile.abrir-menu {
-  width: 70%;
-}
-
-.menu-mobile a h3 {
-  text-align: right;
-  padding: 20px 4%;
-  font-size: 20px;
-  font-weight: 300;
-}
-
-
-
-.menu-mobile .btn-fechar {
-  color: #ff0000;
-  font-size: 20px;
-  padding: 20px 5%;
-
+.personagens-inicio {
+  display: flex;
+  padding-right: 5%;
 }
 
 body {
-  color: white;
+  color: rgb(255, 255, 255);
   min-height: 100vh;
-  background: linear-gradient(to top, #ce0000 0%, #000000 85%);
-  font-size: 20px;
+  background: linear-gradient(to right, #ad0000 0%, #000000 85%);
 }
 
 .nav-container a {
@@ -230,24 +199,100 @@ body {
   }
 }
 
-@media screen and (max-width: 505px) {
+@media screen and (max-width: 573px) {
   body {
     flex-direction: column;
-    font-size: 10;
+
   }
 
   .nav-container {
     display: none;
   }
+
+  .main-mobile {
+    display: block;
+  }
+
+  .btn-abrir-menu svg {
+    color: #ff0000;
+    font-size: 40px;
+    right: -90%;
+    position: relative;
+
+  }
+
+  .menu-mobile {
+    background-color: rgb(0, 0, 0);
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 99999;
+    width: 0%;
+    overflow: hidden;
+    transition: .5s;
+
+  }
+
+  .menu-mobile.abrir-menu {
+    width: 70%;
+  }
+
+  .menu-mobile a h3 {
+    text-align: right;
+    padding: 20px 4%;
+    font-size: 20px;
+    font-weight: 300;
+  }
+
+  .menu-mobile .btn-fechar {
+    color: #ff0000;
+    font-size: 20px;
+    padding: 20px 5%;
+
+  }
+
+  .img_personagem {
+    width: 80%;
+    height: 80%;
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+
+  }
+
+  .legendaImg {
+    font-size: 80%;
+    padding: 1%;
+  }
+
 }
 
 .texto {
   padding-left: 2.5%;
   padding-right: 2.5%;
   text-align: justify;
+  font-size: 90%;
 }
 
 .img_personagem {
-  max-width: 40%;
-  max-height: 40%;
+  width: 80%;
+  height: 80%;
+  padding-left: 0.5%;
+  padding-right: 0.5%;
+
+}
+
+.legendaImg {
+  padding: 1%;
+  width: 80%;
+}
+
+.personagens-inicio {
+  padding: 2%;
+}
+
+footer {
+  background-color: black;
+  padding: 2.5%;
+
 }
