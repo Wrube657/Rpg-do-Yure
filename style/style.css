@@ -1,22 +1,18 @@
 @font-face {
   font-family: Makinas;
-  src: url(font/Makinas-4-Square.otf) format(truetype);
+  src: url(/font/Makinas-4-Square.otf) format(truetype);
 
 }
 
 @font-face {
   font-family: Makinas-flat;
-  src: url(font/Makinas-4-Flat.otf) format(truetype);
+  src: url(/font/Makinas-4-Flat.otf) format(truetype);
 
-}
-
-.titulos {
-  font-family: Makinas;
-  font-size: 140%;
 }
 
 header {
   font-family: Makinas;
+  font-size: 120%;
 }
 
 .main-mobile {
@@ -32,7 +28,7 @@ body {
   color: rgb(255, 255, 255);
   min-height: 100vh;
   background: linear-gradient(to right, #ad0000 0%, #000000 85%);
-  font-family: Makinas-flat;
+
 }
 
 .nav-container a {
@@ -296,6 +292,7 @@ body {
   padding-right: 2.5%;
   text-align: justify;
   font-size: 120%;
+  font-family: Makinas-flat;
 }
 
 .img_personagem {
