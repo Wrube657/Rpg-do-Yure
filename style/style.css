@@ -1,19 +1,18 @@
 @font-face {
   font-family: Makinas;
-  src: url(/font/Makinas-4-Square.otf) format(truetype);
+  src: url(/font/Makinas-4-Square.otf) format(opentype);
 
 }
 
 @font-face {
   font-family: Makinas-flat;
-  src: url(/font/Makinas-4-Flat.otf) format(truetype);
+  src: url(/font/Makinas-4-Flat.otf) format(opentype);
 
 }
 
 .titulos {
-  <<<<<<< Updated upstream: style/style.css font-family: 'Courier New', Courier, monospace;
-  =======font-family: 'Makinas', Courier, monospace;
-  >>>>>>>Stashed changes: style.css font-size: 140%;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 140%;
 }
 
 header {
@@ -26,10 +25,8 @@ header {
   padding-right: 2.5%;
   text-align: justify;
   font-size: 120%;
-  <<<<<<< Updated upstream: style/style.css font-weight: 100;
+  font-weight: 100;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  =======font-family: 'Courier New', Courier, monospace;
-  >>>>>>>Stashed changes: style.css
 }
 
 .main-mobile {
@@ -268,7 +265,9 @@ body {
 
   }
 
-
+  .menu-mobile a {
+    text-decoration: none;
+  }
 
 
   .menu-mobile.abrir-menu {
@@ -280,79 +279,8 @@ body {
     padding: 20px 4%;
     font-size: 100%;
     font-weight: 300;
-    <<<<<<< Updated upstream: style/style.css text-decoration: none;
-    color: #ffffff=======
-  }
-
-  .menu-mobile .btn-fechar {
-    color: #ff0000;
-    font-size: 20px;
-    padding: 20px 5%;
-
-  }
-
-  .img_personagem {
-    width: 80%;
-    height: 80%;
-    padding-left: 0.5%;
-    padding-right: 0.5%;
-
-  }
-
-  .legendaImg {
-    padding: 1%;
-    font-family: 'Courier New', Courier, monospace;
-  }
-
-  .personagens-inicio {
-    display: block;
-    padding-right: 5%;
-  }
-
-  .texto {
-    padding-left: 2.5%;
-    padding-right: 2.5%;
-    text-align: justify;
-    font-size: 120%;
-    font-family: 'Courier New', Courier, monospace;
-  }
-
-  .rodape {
-    background-color: black;
-    position: sticky;
-    bottom: 0%;
-    width: 90%;
-    padding: 15px;
-    font-family: 'Courier New', Courier, monospace;
-  }
-
-  .ui-btn {
-    box-sizing: border-box;
-    padding: var(--btn-padding);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: var(--default-btn-color);
-    font: var(--font-weight) var(--font-size) var(--font-family);
-    background: var(--btn-default-bg);
-    border: none;
-    cursor: pointer;
-    transition: var(--btn-transition);
-    overflow: hidden;
-    box-shadow: var(--btn-shadow);
-    font-size: 140%;
-    font-family: 'Courier New', Courier, monospace;
-  }
-
-  .titulos {
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 140%;
-  }
-
-  header {
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 140%;
-    >>>>>>>Stashed changes: style.css
+    text-decoration: none;
+    color: #ffffff
   }
 
 }
