@@ -12,6 +12,7 @@
 
 .titulos {
   font-family: Makinas;
+  font-size: 140%;
 }
 
 header {
@@ -89,6 +90,7 @@ body {
   transition: var(--btn-transition);
   overflow: hidden;
   box-shadow: var(--btn-shadow);
+  font-size: 140%;
 }
 
 .ui-btn span {
