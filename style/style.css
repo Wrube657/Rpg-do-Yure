@@ -296,6 +296,7 @@ body {
   .personagens-inicio {
     display: block;
     padding-right: 5%;
+    padding-left: 5%;
   }
 
   .texto {
@@ -376,4 +377,10 @@ body {
 * {
   margin: 0;
   padding: 0;
+}
+
+.plyers-devs{
+  display: block;
+  padding-right: 5%;
+  padding-left: 5%;
 }
