@@ -19,6 +19,13 @@ header {
   font-family: 'Makinas';
   font-size: 140%;
 }
+.texto {
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+  text-align: justify;
+  font-size: 120%;
+  font-family:'Courier New', Courier, monospace;
+}
 
 .main-mobile {
   display: none;
@@ -336,13 +343,7 @@ body {
 
 }
 
-.texto {
-  padding-left: 2.5%;
-  padding-right: 2.5%;
-  text-align: justify;
-  font-size: 120%;
-  font-family:'Courier New', Courier, monospace;
-}
+
 
 .img_personagem {
   width: 80%;
