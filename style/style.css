@@ -291,6 +291,49 @@ body {
     padding-right: 5%;
   }
 
+  .texto {
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    text-align: justify;
+    font-size: 120%;
+    font-family: 'Makinas-flat';
+  }
+  .rodape {
+    background-color: black;
+    position: sticky;
+    bottom: 0%;
+    width: 90%;
+   padding: 15px;
+   font-family: 'Makinas-flat';
+  }
+
+  .ui-btn {
+    box-sizing: border-box;
+    padding: var(--btn-padding);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--default-btn-color);
+    font: var(--font-weight) var(--font-size) var(--font-family);
+    background: var(--btn-default-bg);
+    border: none;
+    cursor: pointer;
+    transition: var(--btn-transition);
+    overflow: hidden;
+    box-shadow: var(--btn-shadow);
+    font-size: 140%;
+    font-family: 'Makinas';
+  }
+  .titulos {
+    font-family: 'Makinas';
+    font-size: 140%;  
+  }
+  
+  header {
+    font-family: 'Makinas';
+    font-size: 140%;
+  }
+
 }
 
 .texto {
@@ -313,6 +356,7 @@ body {
   padding: 1%;
   width: 80%;
   font-size: 120%;
+  font-family: 'Makinas-flat';
 }
 
 .personagens-inicio {
@@ -325,6 +369,7 @@ body {
   bottom: 0%;
   width: 90%;
  padding: 15px;
+ font-family: 'Makinas-flat';
 }
 
 * {
