@@ -11,12 +11,12 @@
 }
 
 .titulos {
-  font-family: 'Makinas';
+  font-family:'Courier New', Courier, monospace;
   font-size: 140%;  
 }
 
 header {
-  font-family: 'Makinas';
+  font-family:'Courier New', Courier, monospace;
   font-size: 100%;
 }
 .texto {
@@ -24,7 +24,8 @@ header {
   padding-right: 2.5%;
   text-align: justify;
   font-size: 120%;
-  font-family:'Makinas-flat';
+  font-weight: 100;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .main-mobile {
@@ -77,7 +78,7 @@ body {
 
   --font-size: 16px;
 
-  --font-weight: 600;
+  --font-weight: 500;
 
 
 }
@@ -98,8 +99,8 @@ body {
   transition: var(--btn-transition);
   overflow: hidden;
   box-shadow: var(--btn-shadow);
-  font-size: 140%;
-  font-family: 'Makinas';
+  font-size: 100%;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .ui-btn span {
@@ -269,7 +270,7 @@ body {
   .menu-mobile a h3 {
     text-align: right;
     padding: 20px 4%;
-    font-size: 20px;
+    font-size: 100%;
     font-weight: 300;
     text-decoration: none;
     color: #ffffff
@@ -295,8 +296,8 @@ body {
   .legendaImg {
     padding: 1%;
     width: 80%;
-    font-size: 120%;
-    font-family: 'Makinas-flat';
+    font-size: 100%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
 
   .personagens-inicio {
@@ -309,8 +310,8 @@ body {
     padding-left: 2.5%;
     padding-right: 2.5%;
     text-align: justify;
-    font-size: 120%;
-    font-family: 'Makinas-flat';
+    font-size: 100%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
   .rodape {
     background-color: black;
@@ -318,7 +319,8 @@ body {
     bottom: 0%;
     width: 90%;
    padding: 15px;
-   font-family: 'Makinas';
+   font-family: 'Courier New', Courier, monospace;
+   font-weight: 100;
   }
 
   .ui-btn {
@@ -335,21 +337,25 @@ body {
     transition: var(--btn-transition);
     overflow: hidden;
     box-shadow: var(--btn-shadow);
-    font-size: 140%;
-    font-family: 'Makinas';
+    font-size: 100%;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 100;
   }
   .titulos {
-    font-family: 'Makinas';
-    font-size: 140%;  
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 100%;
+    font-weight: 100;  
   }
   
   header {
-    font-family: 'Makinas';
-    font-size: 140%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 100%;
+    font-weight: 100;
+    background: linear-gradient(to bottom, #000000 0%, #1d1d1d 75%);
   }
   .nav-container a {
     text-decoration: none;
-    color: #ffffff
+    color: #ffffff;
   }
 
 .img_personagem {
@@ -363,8 +369,9 @@ body {
 .legendaImg {
   padding: 1%;
   width: 80%;
-  font-size: 120%;
-  font-family: 'Makinas-flat';
+  font-size: 100%;
+  font-weight: 100;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .personagens-inicio {
@@ -377,7 +384,7 @@ body {
   bottom: 0%;
   width: 90%;
  padding: 15px;
- font-family: 'Makinas';
+ font-family: 'Courier New', Courier, monospace;
 }
 
 * {
