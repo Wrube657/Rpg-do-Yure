@@ -15,6 +15,7 @@ body {
   color: rgb(255, 255, 255);
   min-height: 100vh;
   background: linear-gradient(to right, #ad0000 0%, #000000 85%);
+  font-family: ;
 }
 
 .nav-container a {
@@ -265,13 +266,18 @@ body {
     padding: 1%;
   }
 
+  .personagens-inicio {
+    display: block;
+    padding-right: 5%;
+  }
+
 }
 
 .texto {
   padding-left: 2.5%;
   padding-right: 2.5%;
   text-align: justify;
-  font-size: 90%;
+  font-size: 120%;
 }
 
 .img_personagem {
@@ -285,14 +291,17 @@ body {
 .legendaImg {
   padding: 1%;
   width: 80%;
+  font-size: 120%;
 }
 
 .personagens-inicio {
   padding: 2%;
 }
 
-footer {
+.rodape {
   background-color: black;
-  padding: 2.5%;
-
+  position: sticky;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
 }
