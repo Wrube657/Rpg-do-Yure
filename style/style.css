@@ -39,9 +39,9 @@ header {
 }
 
 body {
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   min-height: 100vh;
-  background: linear-gradient(to right, #ad0000 0%, #000000 85%);
+  background: linear-gradient(to right, #ffffff 0%, #cfcfcf 85%);
 
 }
 
@@ -64,6 +64,7 @@ body {
   position: relative;
   height: 50px;
   top: 25px;
+  font-size: 150%;
 
 
 
@@ -235,6 +236,19 @@ body {
 
   }
 
+  .legendaImg {
+    text-align: center;
+    margin: auto;
+  }
+
+  .img_personagem {
+    width: 100px;
+    height: 100px;
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+    margin: auto;
+  }
+
   .nav-container {
     display: none;
   }
@@ -244,7 +258,7 @@ body {
   }
 
   .btn-abrir-menu svg {
-    color: #ff0000;
+    color: #ffffff;
     font-size: 40px;
     right: -90%;
     position: relative;
@@ -283,10 +297,14 @@ body {
     color: #ffffff
   }
 
+  .personagens-inicio {
+    align-items: center;
+  }
+
 }
 
 .menu-mobile .btn-fechar {
-  color: #ff0000;
+  color: #ffffff;
   font-size: 20px;
   padding: 20px 5%;
 
@@ -311,18 +329,20 @@ body {
   display: block;
   padding-right: 5%;
   padding-left: 5%;
+
 }
 
 .texto {
   padding-left: 2.5%;
   padding-right: 2.5%;
   text-align: justify;
-  font-size: 100%;
+  font-size: 125%;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: justify;
 }
 
 .rodape {
-  background-color: black;
+  background-color: linear-gradient(to bottom, #363636 0%, #000000 75%);
   position: sticky;
   bottom: 0%;
   width: 90%;
@@ -352,7 +372,7 @@ body {
 
 .titulos {
   font-family: 'Courier New', Courier, monospace;
-  font-size: 100%;
+  font-size: 150%;
   font-weight: 100;
 }
 
@@ -360,7 +380,7 @@ header {
   font-family: 'Courier New', Courier, monospace;
   font-size: 100%;
   font-weight: 100;
-  background: linear-gradient(to bottom, #000000 0%, #1d1d1d 75%);
+  background: linear-gradient(to bottom, #000000 0%, #838383 75%);
 }
 
 .nav-container a {
@@ -369,19 +389,24 @@ header {
 }
 
 .img_personagem {
-  width: 80%;
-  height: 80%;
+  width: 40%;
+  height: 40%;
   padding-left: 0.5%;
   padding-right: 0.5%;
-
+  display: flex;
+  border: 2px solid rgb(65, 65, 65);
+margin: auto;
 }
 
 .legendaImg {
   padding: 1%;
   width: 80%;
-  font-size: 100%;
-  font-weight: 100;
+  font-size: 145%;
+  font-weight: 130;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  font-style: italic;
+  margin: auto;
 }
 
 .personagens-inicio {
@@ -389,12 +414,13 @@ header {
 }
 
 .rodape {
-  background-color: black;
+  color: #000000;
   position: sticky;
   bottom: 0%;
   width: 90%;
   padding: 15px;
   font-family: 'Courier New', Courier, monospace;
+  font-size: 125%;
 }
 
 * {
