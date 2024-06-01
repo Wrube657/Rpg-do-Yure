@@ -91,7 +91,8 @@ body {
   transition: var(--btn-transition);
   overflow: hidden;
   box-shadow: var(--btn-shadow);
-
+  font-size: 140%;
+  font-family: Makinas;
 }
 
 .ui-btn span {
@@ -281,8 +282,8 @@ body {
   }
 
   .legendaImg {
-    font-size: 80%;
     padding: 1%;
+    font-family: Makinas-flat;
   }
 
   .personagens-inicio {
