@@ -296,7 +296,7 @@ body {
     padding-right: 2.5%;
     text-align: justify;
     font-size: 120%;
-    font-family: 'Makinas-flat';
+    font-family: 'Courier New', Courier, monospace;
   }
   .rodape {
     background-color: black;
@@ -341,7 +341,7 @@ body {
   padding-right: 2.5%;
   text-align: justify;
   font-size: 120%;
-  font-family: 'Makinas-flat';
+  font-family:'Courier New', Courier, monospace;
 }
 
 .img_personagem {
