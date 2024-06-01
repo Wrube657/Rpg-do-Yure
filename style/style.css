@@ -1,6 +1,22 @@
-/* Menu Mobile */
+@font-face {
+  font-family: Makinas;
+  src: url(/font/Makinas-4-Square.otf) format(truetype);
 
+}
 
+@font-face {
+  font-family: Makinas-flat;
+  src: url(/font/Makinas-4-Flat.otf) format(truetype);
+
+}
+
+.titulos {
+  font-family: Makinas;
+}
+
+header {
+  font-family: Makinas;
+}
 
 .main-mobile {
   display: none;
@@ -15,7 +31,7 @@ body {
   color: rgb(255, 255, 255);
   min-height: 100vh;
   background: linear-gradient(to right, #ad0000 0%, #000000 85%);
-  font-family: ;
+  font-family: Makinas-flat;
 }
 
 .nav-container a {
@@ -301,7 +317,12 @@ body {
 .rodape {
   background-color: black;
   position: sticky;
-  bottom: 0;
-  width: 100%;
-  height: 40px;
+  bottom: 0%;
+  width: 90%;
+ padding: 15px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
 }
