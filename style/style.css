@@ -11,12 +11,12 @@
 }
 
 .titulos {
-  font-family: Makinas;
+  font-family: 'Makinas';
   font-size: 140%;  
 }
 
 header {
-  font-family: Makinas;
+  font-family: 'Makinas';
   font-size: 140%;
 }
 
@@ -92,7 +92,7 @@ body {
   overflow: hidden;
   box-shadow: var(--btn-shadow);
   font-size: 140%;
-  font-family: Makinas;
+  font-family: 'Makinas';
 }
 
 .ui-btn span {
@@ -283,7 +283,7 @@ body {
 
   .legendaImg {
     padding: 1%;
-    font-family: Makinas-flat;
+    font-family: 'Makinas-flat';
   }
 
   .personagens-inicio {
@@ -298,7 +298,7 @@ body {
   padding-right: 2.5%;
   text-align: justify;
   font-size: 120%;
-  font-family: Makinas-flat;
+  font-family: 'Makinas-flat';
 }
 
 .img_personagem {
