@@ -99,7 +99,7 @@ body {
   overflow: hidden;
   box-shadow: var(--btn-shadow);
   font-size: 140%;
-  font-family: 'Makinas';
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .ui-btn span {
@@ -290,7 +290,7 @@ body {
 
   .legendaImg {
     padding: 1%;
-    font-family: 'Makinas-flat';
+    font-family: 'Courier New', Courier, monospace;
   }
 
   .personagens-inicio {
@@ -311,7 +311,7 @@ body {
     bottom: 0%;
     width: 90%;
    padding: 15px;
-   font-family: 'Makinas-flat';
+   font-family: 'Courier New', Courier, monospace;
   }
 
   .ui-btn {
@@ -329,15 +329,15 @@ body {
     overflow: hidden;
     box-shadow: var(--btn-shadow);
     font-size: 140%;
-    font-family: 'Makinas';
+    font-family: 'Courier New', Courier, monospace;
   }
   .titulos {
-    font-family: 'Makinas';
+    font-family: 'Courier New', Courier, monospace;
     font-size: 140%;  
   }
   
   header {
-    font-family: 'Makinas';
+    font-family: 'Courier New', Courier, monospace;
     font-size: 140%;
   }
 
@@ -357,7 +357,7 @@ body {
   padding: 1%;
   width: 80%;
   font-size: 120%;
-  font-family: 'Makinas-flat';
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .personagens-inicio {
@@ -370,7 +370,7 @@ body {
   bottom: 0%;
   width: 90%;
  padding: 15px;
- font-family: 'Makinas-flat';
+ font-family: 'Courier New', Courier, monospace;
 }
 
 * {
