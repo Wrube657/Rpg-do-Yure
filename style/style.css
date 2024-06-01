@@ -1,12 +1,12 @@
 @font-face {
   font-family: Makinas;
-  src: url(/font/Makinas-4-Square.otf) format("opentype");
+  src: url(/font/Makinas-4-Square.otf) format(opentype);
 
 }
 
 @font-face {
   font-family: Makinas-flat;
-  src: url(/font/Makinas-4-Flat.otf) format("opentype");
+  src: url(/font/Makinas-4-Flat.otf) format(opentype);
 
 }
 
