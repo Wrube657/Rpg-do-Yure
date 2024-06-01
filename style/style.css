@@ -10,9 +10,14 @@
 
 }
 
+.titulos {
+  font-family: Makinas;
+  font-size: 140%;  
+}
+
 header {
   font-family: Makinas;
-  font-size: 120%;
+  font-size: 140%;
 }
 
 .main-mobile {
@@ -86,7 +91,7 @@ body {
   transition: var(--btn-transition);
   overflow: hidden;
   box-shadow: var(--btn-shadow);
-  font-size: 140%;
+
 }
 
 .ui-btn span {
