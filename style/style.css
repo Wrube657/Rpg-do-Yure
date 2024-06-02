@@ -42,7 +42,7 @@ body {
   color: rgb(0, 0, 0);
   min-height: 100vh;
   background: linear-gradient(to right, #ffffff 0%, #cfcfcf 85%);
-
+font-size: 150%;
 }
 
 .nav-container a {
@@ -233,7 +233,7 @@ body {
 @media screen and (max-width: 573px) {
   body {
     flex-direction: column;
-
+font-size: 90%;
   }
 
   .legendaImg {
@@ -301,6 +301,7 @@ body {
     align-items: center;
   }
 
+ 
 }
 
 .menu-mobile .btn-fechar {
@@ -321,7 +322,7 @@ body {
 .legendaImg {
   padding: 1%;
   width: 80%;
-  font-size: 100%;
+  font-size: 175%;
   font-family: "Major Mono Display", monospace;
 }
 
@@ -336,7 +337,7 @@ body {
   padding-left: 2.5%;
   padding-right: 2.5%;
   text-align: justify;
-  font-size: 125%;
+  font-size: 175%;
   font-family: "Major Mono Display", monospace;
   text-align: justify;
 }
