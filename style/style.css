@@ -1,22 +1,22 @@
-@font-face {
-  font-family: Makinas;
-  src: url(/font/Makinas-4-Square.otf) format(opentype);
-
+.major-mono-display-regular {
+  font-family: "Major Mono Display", monospace;
+  font-weight: 400;
+  font-style: normal;
 }
 
-@font-face {
-  font-family: Makinas-flat;
-  src: url(/font/Makinas-4-Flat.otf) format(opentype);
-
+.chakra-petch-regular {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .titulos {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Chakra Petch", sans-serif;
   font-size: 140%;
 }
 
 header {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Chakra Petch", sans-serif;
   font-size: 100%;
 }
 
@@ -26,7 +26,7 @@ header {
   text-align: justify;
   font-size: 120%;
   font-weight: 100;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Major Mono Display", monospace;
 }
 
 .main-mobile {
@@ -102,7 +102,7 @@ body {
   overflow: hidden;
   box-shadow: var(--btn-shadow);
   font-size: 100%;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Chakra Petch", sans-serif;
 }
 
 .ui-btn span {
@@ -322,7 +322,7 @@ body {
   padding: 1%;
   width: 80%;
   font-size: 100%;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Major Mono Display", monospace;
 }
 
 .personagens-inicio {
@@ -337,7 +337,7 @@ body {
   padding-right: 2.5%;
   text-align: justify;
   font-size: 125%;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Major Mono Display", monospace;
   text-align: justify;
 }
 
@@ -347,7 +347,7 @@ body {
   bottom: 0%;
   width: 90%;
   padding: 15px;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Chakra Petch", sans-serif;
   font-weight: 100;
 }
 
@@ -366,18 +366,18 @@ body {
   overflow: hidden;
   box-shadow: var(--btn-shadow);
   font-size: 100%;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Chakra Petch", sans-serif;
   font-weight: 100;
 }
 
 .titulos {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Chakra Petch", sans-serif;
   font-size: 150%;
   font-weight: 100;
 }
 
 header {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Chakra Petch", sans-serif;
   font-size: 100%;
   font-weight: 100;
   background: linear-gradient(to bottom, #000000 0%, #838383 75%);
@@ -403,7 +403,7 @@ margin: auto;
   width: 80%;
   font-size: 145%;
   font-weight: 130;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Major Mono Display", monospace;
   text-align: center;
   font-style: italic;
   margin: auto;
@@ -419,8 +419,9 @@ margin: auto;
   bottom: 0%;
   width: 90%;
   padding: 15px;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Chakra Petch", sans-serif;
   font-size: 125%;
+  background-color: #cfcfcf;
 }
 
 * {
@@ -432,4 +433,8 @@ margin: auto;
   display: block;
   padding-right: 5%;
   padding-left: 5%;
+}
+.text-inicio{
+  padding-left: 5%;
+  padding-right: 5%;
 }
