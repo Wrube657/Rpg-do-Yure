@@ -64,7 +64,7 @@ font-size: 150%;
   position: relative;
   height: 50px;
   top: 25px;
-  font-size: 150%;
+  font-size: 115%;
 
 
 
@@ -438,4 +438,10 @@ margin: auto;
 .text-inicio{
   padding-left: 5%;
   padding-right: 5%;
+}
+
+#login{
+  font-size: 75%;
+  margin-left: 93%;
+  margin-top: -3.5%;
 }
