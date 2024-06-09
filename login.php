@@ -36,3 +36,27 @@ if(isset($_POST['jogador']) || isset($_POST['senha'])){
     }
 }
 ?>
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="POST">
+    <p>
+        <label>Personagem</label>
+        <input type="text" name="jogador">
+    </p>
+    <p>
+        <label>Senha</label>
+        <input type="password" name="senha">
+    </p>
+    <p>
+        <button type="submit">Entrar</button>
+    </p>
+    </form>
+</body>
+</html>
